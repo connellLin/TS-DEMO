@@ -1,0 +1,9 @@
+$text-color: springgreen;
+$font-size: 14px;
+
+@mixin box-row-flex($row){
+  display: flex;
+  flex-direction: row;
+  justify-content: $row;
+  align-items: center;
+}
